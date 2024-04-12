@@ -12,7 +12,6 @@ services:
     ports:
       - "20443:20443"
     volumes:
-      - ~/certs:/certs
       - /etc/ssl/certs:/etc/ssl/certs
     logging:
       #driver: "json-file"

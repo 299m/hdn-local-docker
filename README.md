@@ -21,6 +21,8 @@ This docker-compose.yaml file is set up for the demo server, adjust these parame
 
 ## Running
 
+*** You may need to use sudo for the following commands ***
+
 In the same directory as the docker-compose.yaml file type the command
 ```
 docker-compose up --detach
@@ -30,12 +32,16 @@ Open system settings and set the HTTPS proxy to point at localhost on port 20443
 
 ## Stopping
 
+*** You may need to use sudo for the following commands ***
+
 In the same directory as the docker-compose.yaml file type the command
 ```
 docker-compose down
 ```
 
 ## Updating
+
+*** You may need to use sudo for the following commands ***
 
 In the same directory as the docker-compose.yaml file type the command
 ```
