@@ -1,0 +1,6 @@
+{
+  "Cert": "./certs/combined-certs.pem",
+  "Key":  "./certs/key.pem",
+  "Port": "20443",
+  "IsTcpProxy": true
+}

@@ -1,0 +1,8 @@
+{
+  "Proxies": {
+   "tunnel": {
+      "Proxyendpoint": "tls://$PROXY_ADDRESS:$PROXY_PORT/$PROXY_ROUTE",
+      "Type": "net"
+    }
+  }
+}
