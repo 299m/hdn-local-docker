@@ -4,7 +4,7 @@ services:
   hdnprxy:
     image: 299m/core:hdn-local-tunnel-1.0.0
     environment:
-      - PROXY_ROUTE=/7a28fe
+      - PROXY_ROUTE=7a28fe
       - PROXY_ADDRESS=299m.io
       - PROXY_PORT=443
       - PARAMNAME=exo
