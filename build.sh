@@ -1,7 +1,6 @@
 #!/bin/bash
 
-mkdir bin/
-cp $(which hdnprxy) bin/
+git pull
 
 # Build the docker image
 sudo docker build -t hdn-local-tunnel .
