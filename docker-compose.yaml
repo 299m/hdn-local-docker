@@ -9,6 +9,7 @@ services:
       - PROXY_PORT=443
       - PARAMNAME=exo
       - PARAMVALUE=i923aFe
+      - TIMEOUT=30s
     ports:
       - "20443:20443"
     volumes:
