@@ -1,7 +1,7 @@
 {
   "ProxyParam": "",
   "ProxyRoute": "",
-  "Timeout": "30s",
+  "Timeout": "$TIMEOUT",
   "AllowedCACerts": [],
 
   "IsLocal": true
